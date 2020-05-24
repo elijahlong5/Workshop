@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 25%;
+}
+
+li[data-traveled='True'] {
+    background-color: lightgreen;
+}
+li[data-traveled='False'] {
+    background-color: lightcoral;
+}
+
+button {
+    font: inherit;
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border-radius: .5em;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    background: #832ee4;
+    border-color: #832ee4;
+    box-shadow: 2px 2px 2px grey;
+}

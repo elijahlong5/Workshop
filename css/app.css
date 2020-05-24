@@ -1,0 +1,75 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    font: inherit;
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border-radius: .5em;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    background: #832ee4;
+    border-color: #832ee4;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#control-center {
+    border: 2px solid #ccc;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.button-panel {
+    display: flex;
+    justify-content: center;
+    /*background-color: green;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

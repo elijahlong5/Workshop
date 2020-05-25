@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="../css/sorting.css">
 </head>
 <body>
+  <div class="container">
     <h1>Sort the list how you choose</h1>
-    <button onclick="sortAlpha()" id="sort-alpha-button">Sort Alpha</button>
-    <button onclick="sortTraveled()" id="sort-traveled-button">Sort Traveled</button>
+    <div class="button-container">
+      <button onclick="sortAlpha()" >Sort Alpha</button>
+      <button onclick="sortTraveled()" id="sort-traveled-button">Sort Traveled</button>
+    </div>
     <ul id="list">
-        <li data-traveled="False">Oslo</li>
-        <li data-traveled="True">Stockholm</li>
-        <li data-traveled="False">Helsinki</li>
-        <li data-traveled="True">Berlin</li>
-        <li data-traveled="True">Rome</li>
-        <li data-traveled="True">Madrid</li>
+        <li data-traveled="False">Frankfurt</li>
+        <li data-traveled="True">London</li>
+        <li data-traveled="False">Cartagena</li>
+        <li data-traveled="True">Hawaii</li>
+        <li data-traveled="False">Rome</li>
+        <li data-traveled="True">Vienna</li>
     </ul>
+  </div>
 </body>
 <script src="../js/sorting.js" defer></script>
 </html>

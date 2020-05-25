@@ -4,6 +4,16 @@
   border: 3px solid darkblue;
   padding: 10px;
 }
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  background-color: #333333;
+}
+
 h1 {
   margin: auto;
   text-align: center;

@@ -1,0 +1,89 @@
+.container {
+  width: 50%;
+  margin: auto;
+  border: solid darkblue;
+  border-radius: .5em;
+  background-color: #b3d4fc;
+}
+
+.book {
+  position: relative;
+  display: flex;
+}
+
+.book-feature {
+  display: none;
+  visibility: hidden;
+
+  /* Position the feature */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  opacity: .5;
+}
+.headphone-emoji {
+  left: 120%;
+}
+
+.book .read {
+  opacity: 1;
+}
+
+/*When you hover on the book title, display the feature*/
+.book-attr {
+  display: none;
+  position: relative;
+  top: -.4em;
+  left: 5px;
+  opacity: .3;
+}
+
+li:hover .book-attr {
+  display: block;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+a {
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+li{
+  list-style-type: none;
+  margin: .2em;
+  padding: .2em;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 1em;
+}
+
+body > a {
+  width: 50%;
+  margin: auto;
+  margin-bottom: .25em;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+
+  text-decoration: none;
+  background-color: #333333;
+}
+
+
+/* To display a div after an a element upon hover.
+a:hover + div {*/
+/*  background-color: darkcyan;*/
+/*  display: block;*/
+/*  float: right;*/
+/*  border: solid lightseagreen;*/
+/*  z-index: 1;*/
+/*}*/
